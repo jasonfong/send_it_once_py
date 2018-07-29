@@ -1,0 +1,2 @@
+flask==1.0.2
+GoogleAppEngineCloudStorageClient==1.9.22.1
