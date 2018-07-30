@@ -23,6 +23,8 @@ Download links are in this form:
 
 https://APP_ID.appspot.com/downloads/filename?key=key
 
+Replace APP_ID with the application ID of your Google Cloud Platform project.
+
 Once a download link is used for the first time, the key file in GCS will be rewritten with a expiration timestamp in place of the TTL value.
 
 # Example
@@ -40,4 +42,4 @@ c17a852292ae482eaf2cd4decfbf23d1|900
 
 This link will be active for 15 minutes after it is first used:
 
-https://APP_ID.appspot.com/downloads/some_file.jpg?key=c17a852292ae482eaf2cd4decfbf23d1
+https://APP_ID.appspot.com/download/some_file.jpg?key=c17a852292ae482eaf2cd4decfbf23d1
